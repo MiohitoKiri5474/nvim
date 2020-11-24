@@ -125,7 +125,6 @@ let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 
 
 " lsp config
-lua require 'lsp_config'
 lua << EOF
 	vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
 		vim.lsp.diagnostic.on_publish_diagnostics, {
