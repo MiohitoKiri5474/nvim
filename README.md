@@ -58,6 +58,7 @@ Color Theme
 ## How Deploy
 
 1. Install neoVim nightly
+
 On macOS
 ```sh
 brew install --HEAD neovim
@@ -85,7 +86,7 @@ vim +UpdateRemotePlugins +qa
 ```
 
 
-... or using the shell script in this repo
+... or using the shell script in this repo after installed neoVim
 ```sh
 ./setup.sh
 ```
