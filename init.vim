@@ -47,8 +47,8 @@ call plug#begin('~/.config/nvim/plugged')
 " import plug-in
 
 " powerline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline', { 'as': 'airline' }
+Plug 'vim-airline/vim-airline-themes', { 'as': 'airline-themes' }
 
 " set status line
 set laststatus=2
@@ -57,8 +57,8 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 
 " theme
-Plug 'dracula/vim'
-Plug 'frazrepo/vim-rainbow'
+Plug 'dracula/vim', { 'as': 'dracula-theme' }
+Plug 'frazrepo/vim-rainbow', { 'as': 'rainbow' }
 
 " (Optiona) Multi-entry selection UI.
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': { -> fzf#install() } } 
@@ -73,25 +73,23 @@ Plug 'Shougo/defx.nvim', { 'as': 'defx' }
 noremap <silent><C-f> <cmd>Defx -buffer-name="defx"<cr>
 
 " auto completion & lsp
-Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
-Plug 'nvim-lua/lsp-status.nvim'
+Plug 'neovim/nvim-lspconfig', { 'as': 'lsp-config' }
+Plug 'nvim-lua/completion-nvim', { 'as': 'lua-auto-completion' }
+Plug 'nvim-lua/lsp-status.nvim', { 'as': 'lsp-status' }
 
-let g:completion_chain_complete_list = [
-            \{'complete_items': ['lsp']},
-            \]
+let g:completion_chain_complete_list = [{'complete_items': ['lsp']},]
 let g:completion_enable_auto_hover = 1
 let g:completion_enable_auto_popup = 1
 
 " golang 
-Plug 'fatih/vim-go',{'for':'go', 'do': ':GoUpdateBinaries'}
+Plug 'fatih/vim-go',{ 'for':'go', 'do': ':GoUpdateBinaries' }
 let g:go_metalinter_command = "golangci-lint"
 let g:go_metalinter_enabled = ['vet', 'errcheck', 'staticcheck', 'gosimple']
 
 " fzf vim support
 
 " gitgutter
-Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter', { 'as': 'gitgutter' }
 
 " git-vim
 Plug 'motemen/git-vim'
@@ -102,10 +100,10 @@ map <C-t> :TagbarToggle<cr>
 imap <C-t> <Esc>:TagbarToggle<cr>a
 
 " vim-dispatch
-Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-dispatch', { 'as': 'dispatch' }
 
 " Goyo
-Plug 'junegunn/goyo.vim'
+Plug 'junegunn/goyo.vim', { 'as': 'goyo' }
 map <C-g> :Goyo<cr>
 imap <C-g> <Esc>:Goyo<cr>a
 
