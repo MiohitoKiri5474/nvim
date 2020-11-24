@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/miohitokiri5474/.config/nvim/plugged/lsp-status.nvim/lua/lsp-status'
+let g:netrw_dirhist_9='/Users/miohitokiri5474/.config/nvim/plugged/nvim-lspconfig'
+let g:netrw_dirhist_8='/Users/miohitokiri5474/problem'
+let g:netrw_dirhist_7='/Users/miohitokiri5474/.ssh'
+let g:netrw_dirhist_6='/Users/miohitokiri5474/code/miohitokiri5474@172.25.27.151'
+let g:netrw_dirhist_5='/Users/miohitokiri5474/codimd-container/alpine'
+let g:netrw_dirhist_4='/Users/miohitokiri5474/blog'
+let g:netrw_dirhist_3='/Users/miohitokiri5474/test'
+let g:netrw_dirhist_2='/Users/miohitokiri5474'
+let g:netrw_dirhist_1='/Users/miohitokiri5474/test'
