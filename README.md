@@ -46,7 +46,7 @@
 
 ### something else
 
-Nert tree
+Nerd tree
  - [Shouge/defx.nvim](https://github.com/Shougo/defx.nvim)
 
 Golang support
