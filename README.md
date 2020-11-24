@@ -57,18 +57,18 @@ Color Theme
 
 ## How Deploy
 
-1. Install neoVim nightly
+1. Install neoVim nightly, python3 and pip3
 
-On macOS
 ```sh
+# On macOS
 brew install --HEAD neovim
-```
-On Archlinux, with AUR
-```sh
+brew install python3 pip3
+# On Archlinux, with AUR
 yay -S neovim-nightly
+sudo pacman -Sy python3 pip3
 ```
 
-2. neoVim Python Support
+2. neoVim Python3 Support
 Using pip3 install pynvim
 ```sh
 pip3 install pynvim
@@ -86,7 +86,7 @@ vim +UpdateRemotePlugins +qa
 ```
 
 
-... or using the shell script in this repo after installed neoVim
+... or using the shell script in this repo after installed neoVim, python3 and pip3
 ```sh
 ./setup.sh
 ```
