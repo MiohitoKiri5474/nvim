@@ -2,6 +2,11 @@
 
 > These config file can **only** work on neoVim, vim user may have some plugin invalid.
 
+## Screenshots
+
+![](https://i.imgur.com/WBUwZ0C.jpg)
+![](https://i.imgur.com/xuc4mUX.png)
+
 ## Plugins
 
 ### Plugin Manager
