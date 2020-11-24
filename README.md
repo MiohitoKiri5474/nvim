@@ -1,6 +1,12 @@
 # MiohitoKiri's neoVim config files
 
+> These config file can **only** work on neoVim, vim user may have some plugin invalid.
+
 ## Plugins
+
+### Plugin Manager
+
+ - [junejunn/vim-plug](https://github.com/junegunn/vim-plug)
 
 ### airline
 
@@ -47,3 +53,39 @@ Goyo
 Color Theme
  - [dracula/vim](https://github.com/dracula/vim)
  - [frazrepo/vim-rainbow](https://github.com/frazrepo/vim-rainbow)
+
+
+## How Deploy
+
+1. Install neoVim nightly
+On macOS
+```sh
+brew install --HEAD neovim
+```
+On Archlinux, with AUR
+```sh
+yay -S neovim-nightly
+```
+
+2. neoVim Python Support
+Using pip3 install pynvim
+```sh
+pip3 install pynvim
+```
+
+2. Clone this repo to `~/.config`
+```sh
+git clone https://github.com/MiohitoKiri5474/nvim.git ~/.config/nvim
+```
+
+3. vim-plug upgrade, plugin install & update and make remote contorl work
+```sh
+vim +PlugUpgrade +PlugInstall +PlugUpdate +qa
+vim +UpdateRemotePlugins +qa
+```
+
+
+... or using the shell script in this repo
+```sh
+./setup.sh
+```
