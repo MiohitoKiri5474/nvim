@@ -95,3 +95,7 @@ vim +UpdateRemotePlugins +qa
 ```sh
 ./setup.sh
 ```
+
+## Tempelate
+
+User can edit templates in `template/` by himself.
