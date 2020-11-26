@@ -68,6 +68,7 @@ Color Theme
 # On macOS
 brew install --HEAD neovim
 brew install python3 pip3
+
 # On Archlinux, with AUR
 yay -S neovim-nightly
 sudo pacman -Sy python3 pip3
