@@ -53,7 +53,7 @@ Golang support
  - [fatih/vim-go](https://github.com/fatih/vim-go)
 
 Goyo
- -[junegunn/goyo.vim](https://github.com/junegunn/goyo.vim)
+ - [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim)
 
 Color Theme
  - [dracula/vim](https://github.com/dracula/vim)
