@@ -28,7 +28,7 @@ imap <C-z> <ESC>ua
 
 " copy hole file
 map <C-c> :w<cr>ggVGy
-imap <C-c> <ESC> :w<cr>ggVGy
+imap <C-c> <ESC> ggVGy
 
 " past
 map <C-p> p
