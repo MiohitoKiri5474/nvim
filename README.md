@@ -1,6 +1,6 @@
 # MiohitoKiri's neoVim config files
 
-> These config file can **only** work on neoVim, vim user may have some plugin invalid.
+> These config file can **only** work on neoVim, some plug-in maybe not supported vim.
 
 ## Screenshots
 
