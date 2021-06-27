@@ -60,7 +60,7 @@ Color Theme
  - [frazrepo/vim-rainbow](https://github.com/frazrepo/vim-rainbow)
 
 
-## How Deploy
+## How to deploy
 
 1. Install neoVim nightly, python3 and pip3
 
